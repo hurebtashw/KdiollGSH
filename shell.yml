@@ -6,9 +6,8 @@ on:
 
 jobs:
   shellcheck:
-    name: Shellcheck
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/
       - name: Run ShellCheck
         uses: ludeeus/action-shellcheck@master
